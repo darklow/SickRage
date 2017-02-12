@@ -2259,10 +2259,7 @@ class CMDShowGetPoster(ApiCall):
         },
         "optionalParameters": {
             "tvdbid": {"desc": "thetvdb.com unique ID of a show"},
-            "media_format": {
-                "normal": "Normal size poster",
-                "thumb": "Thumbnail size poster",
-            },
+            "media_format": {"desc": "normal: Normal size poster (default), thumb: Thumbnail size poster"},
         }
     }
 
